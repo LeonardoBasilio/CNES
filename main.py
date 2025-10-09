@@ -12,7 +12,7 @@ def dowload(url: str, destino_zip: Path) -> Path:
     print(f"Host: {host}")
     print(url)
     req = request.Request(url, headers={"User-Agent": "CNES-PIN/1.0"})
-    print(req.headers)
+    print(req.text)
 
 # =================== Execução ===================
 
