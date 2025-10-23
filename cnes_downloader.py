@@ -97,7 +97,7 @@ def progress(prefix: str, done: int, total: Optional[int]) -> None:
     sys.stdout.flush()
 
 
-def download_with_resume_pinned(
+def download_with_resume_pigitnned(
     url: str,
     destino: Union[str, Path],
     *,
